@@ -1,16 +1,16 @@
 {
-  "name": "QiuBlog",
+  "name": "rainyaftertomorrow",
   "private": true,
   "version": "0.23.506",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ocyss/QiuBlog.git"
+    "url": "https://github.com/CrazyHarb/VBlog"
   },
-  "author": "Ocyss",
+  "author": "画中蝉",
   "config": {
-    "host": "api.ocyss.icu",
-    "port": "16879"
+    "host": "api.ipoluo.com",
+    "port": "2000"
   },
   "scripts": {
     "dev": "node server",

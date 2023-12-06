@@ -2,19 +2,19 @@ Server:
   # development 开发模式 production 生产模式
   AppMode: production
   Host: localhost
-  Port: 3000
+  Port: 80
   # Jwt加密秘钥
   JwtKey:
   Database:
     Type: mysql
     Host: localhost
-    Port: 3307
+    Port: 2333
     User: root
     PassWord:
-    Name: qiublog
+    Name: vblog
     Redis:
-      Host: wsl
-      Port: 6379
+      Host: localhost
+      Port: 2677
       Password:
       Db: 0
   Oss:
@@ -28,8 +28,8 @@ Server:
     aliyun:
       AccessKeyId:
       AccessKeySecret:
-      Endpoint:
-      BucketName:
+      Endpoint: oss-rg-china-mainland.aliyuncs.com
+      BucketName: rainyaftertomorrow
   Push:
     # 启用哪个,空或其他为不启用
     Enable: Email
@@ -66,14 +66,14 @@ Log:
   Compress: false
 SiteInfo:
   # 网址带 http,用于生成站点地图
-  Url: https://ocyss.icu
+  Url: http://www.ipoluo.com
   # 博客名
-  Name: 💘  Ocyss 的博客
+  Name: 后天有雨
   # 博主名
-  User: Ocyss
+  User: 画中蝉
   # 邮箱地址
-  Email: qiudie@88.com
+  Email: 951319124@qq.com
   # 博客描述
-  Desc: 故事很短，满是遗憾。
+  Desc: 真的是你鸭！~
   # 建站时间 秒级时间戳 2022-09-07T12:39:08+08:00
-  ConstructionTime: 1662525548
+  ConstructionTime: 1701869396
